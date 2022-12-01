@@ -1,6 +1,5 @@
-var num=[1,2,3,4,5,6,7,8,9,];
-document.write('even number are:');
-for(var i=2; i<10; i+=2)
+var a = parseInt(prompt("Enter a number:"));
+for (i=a;i>0;i--)
 {
-document.write(i);
-} 
+	console.log(i);
+}
