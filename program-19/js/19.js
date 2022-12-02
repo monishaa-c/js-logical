@@ -1,8 +1,7 @@
-var num=prompt("enter  number");
-var i=0;
-document.write('<table border="3" cellspacing="3">');
-for(i=1; i<=20; i++)
+var  t=parseInt(prompt("enter a number:"));
+var  i=1;
+while(i<=20)
 {
-document.write("<tr><td bgcolor=pink>"+num+"X"+i+"="+num*i+"</td></tr>");
+console.log(t+  "  X  "  +i+  "  =  "  +i*t);
+i++;
 }
-document.write("</table>");
